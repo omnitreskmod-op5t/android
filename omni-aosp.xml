@@ -54,7 +54,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-9.0" />
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-9.0" />
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-9.0" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="mtresk" revision="android-9.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="mtresk" revision="android-9.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-9.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-9.0" />
