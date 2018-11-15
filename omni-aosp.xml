@@ -17,6 +17,9 @@
   <remote  name="mtresk-gitlab"
            fetch="https://gitlab.com/mTresk" />
 
+  <remote  name="pixel-gitlab"
+           fetch="https://gitlab.com/PixelExperience" />
+
   <remote  name="opengapps" 
            fetch="https://github.com/opengapps/"  />    
 
