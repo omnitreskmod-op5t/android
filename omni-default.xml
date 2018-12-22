@@ -46,5 +46,6 @@
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="mtresk-gitlab" revision="android-9.0" />
   <project path="packages/apps/ARStickersMod" name="packages_apps_ARStickersMod" remote="pixel-gitlab" revision="pie" />
   <project path="packages/apps/Playground" name="packages_apps_Playground" remote="pixel-gitlab" revision="pie" />
+  <project path="packages/apps/GoogleCameraModOP5" name="packages_apps_GoogleCameraModOP5" remote="mtresk-gitlab" revision="android-9.0" />
 
 </manifest>
