@@ -42,7 +42,7 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mtresk" revision="android-9.0" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-9.0" />
-  <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="mtresk" revision="android-9.0" />
+
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="mtresk-gitlab" revision="android-9.0" />
   <project path="packages/apps/ARStickersMod" name="packages_apps_ARStickersMod" remote="pixel-gitlab" revision="pie" />
   <project path="packages/apps/Playground" name="packages_apps_Playground" remote="pixel-gitlab" revision="pie" />
