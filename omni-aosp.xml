@@ -21,14 +21,17 @@
            fetch="https://gitlab.com/PixelExperience" />
 
   <remote  name="opengapps" 
-           fetch="https://github.com/opengapps/"  />    
+           fetch="https://github.com/opengapps/"  />
+
+  <remote  name="nezorfla"
+           fetch="https://gitlab.nezorfla.me/opengapps/"  />
 
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="nezorfla" />
 
   <!-- arm64 depends on arm -->
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="nezorfla" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="nezorfla" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-9.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-9.0" groups="pdk" />
