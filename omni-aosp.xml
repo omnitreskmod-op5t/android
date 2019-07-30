@@ -63,7 +63,7 @@
 
   <project path="frameworks/av" name="android_frameworks_av" remote="mtresk" revision="android-9.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="mtresk" revision="android-9.0" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="mtresk" revision="android-9.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-9.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-9.0" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mtresk" revision="android-9.0" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-9.0" />
