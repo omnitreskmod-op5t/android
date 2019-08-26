@@ -24,7 +24,7 @@
            fetch="https://github.com/opengapps/"  />
 
   <remote  name="nezorfla"
-           fetch="https://gitlab.nezorfla.me/opengapps/"  />
+           fetch="https://gitlab.opengapps.org/opengapps/"  />
 
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="nezorfla" />
