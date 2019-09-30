@@ -58,10 +58,6 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="device/sample" />
 
-  <remove-project name="platform/external/nos/host/android" />
-  <remove-project name="platform/external/nos/host/generic" />
-  <remove-project name="platform/external/nos/test/system-test-harness" />
-
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/chromium-webview" />
@@ -134,6 +130,8 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <!--<remove-project name="platform/packages/apps/Stk" /> -->
   <!--<remove-project name="platform/packages/apps/Tag" /> -->
+  <remove-project name="platform/packages/apps/WallpaperPicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
