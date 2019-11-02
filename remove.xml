@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="device/generic/uml" />
 
   <remove-project name="platform/art" />
