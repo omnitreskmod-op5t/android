@@ -61,7 +61,6 @@
 
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
@@ -116,6 +115,7 @@
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <!--<remove-project name="platform/packages/apps/EmergencyInfo" />-->
   <remove-project name="platform/packages/apps/Gallery" />
