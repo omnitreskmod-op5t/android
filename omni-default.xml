@@ -23,6 +23,8 @@
   <!--<project path="external/openssh" name="android_external_openssh" remote="omnirom" revision="android-9.0" />-->
   <!--<project path="external/powertop" name="android_external_powertop" remote="omnirom" revision="android-9.0" />-->
   <!--<project path="external/rsync" name="android_external_rsync" remote="omnirom" revision="android-9.0" />-->
+  <project path="external/tigervnc" name="android_external_tigervnc" remote="omnirom" revision="android-10" />
+  <project path="external/vncflinger" name="android_external_vncflinger" remote="omnirom" revision="android-10" />
   <project path="external/vim" name="android_external_vim" remote="omnirom" revision="android-10" />
   <project path="external/zip" name="android_external_zip"  remote="omnirom" revision="android-10" />
 
@@ -37,6 +39,7 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="mtresk" revision="android-10" />
   <!--<project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-10" />-->
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mtresk" revision="android-10" />
+  <project path="packages/apps/OmniRemote" name="android_packages_apps_OmniRemote" remote="omnirom" revision="android-10" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-10" />
 
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="mtresk-gitlab" revision="android-10" />
