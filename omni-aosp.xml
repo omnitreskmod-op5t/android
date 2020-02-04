@@ -20,6 +20,8 @@
   <remote  name="pixel-gitlab"
            fetch="https://gitlab.com/PixelExperience" />
 
+  <remote  name="aosip-devices"
+           fetch="https://github.com/AOSiP-Devices" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-10" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-10" groups="pdk" />
