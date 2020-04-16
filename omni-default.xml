@@ -33,7 +33,6 @@
 
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-10" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="mtresk" revision="android-10" />
-  <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="mtresk" revision="android-10" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mtresk" revision="android-10" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-10" />
 
