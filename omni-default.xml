@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- FIRST: Remove unused/forked AOSP Projects -->
-  <include name="remove.xml" />-->
+  <include name="remove.xml" />
 
   <!-- Include forked AOSP -->
-  <include name="omni-aosp.xml" />-->
+  <include name="omni-aosp.xml" />
 
   <!-- Include forked CAF -->
-  <include name="omni-caf.xml" />-->
+  <include name="omni-caf.xml" />
 
-  <include name="omni-private.xml" />-->
+  <!-- include registered repos -->
+  <include name="omni-private.xml" />
 
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="mtresk" revision="android-10" />
@@ -34,6 +35,7 @@
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-10" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="mtresk" revision="android-10" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mtresk" revision="android-10" />
+  <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-10" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-10" />
 
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="mtresk-gitlab" revision="android-10" />
