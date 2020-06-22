@@ -12,6 +12,8 @@
   <!-- include registered repos -->
   <include name="omni-private.xml" />
 
+  <include name="omni-extra.xml" />
+
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="mtresk" revision="android-10" />
 
@@ -36,15 +38,10 @@
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="mtresk" revision="android-10" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mtresk" revision="android-10" />
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-10" />
-  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-10" />
 
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="mtresk-gitlab" revision="android-10" />
   <project path="vendor/gapps" name="vendor_gapps" remote="mtresk-gitlab" revision="android-10" />
   <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" revision="ten" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="mtresk" revision="android-10" />
   <project path="vendor/google-customization" name="android_vendor_google-customization" remote="mtresk" revision="android-10" />
-  <!--<project path="packages/apps/Playground" name="packages_apps_Playground" remote="mtresk-gitlab" revision="android-9.0" /> -->
-  <!--<project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="mtresk" revision="android-9.0" />-->
-  <!--<project path="packages/apps/Longshot" name="android_packages_apps_Longshot" remote="mtresk" revision="android-9.0" />-->
-
 </manifest>
