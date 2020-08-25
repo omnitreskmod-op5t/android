@@ -11,11 +11,15 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-  <remote  name="mtresk"
-           fetch="https://github.com/mTresk" />
+  <remote  name="mtresk-derp"
+           fetch="https://github.com/omnitreskmod-op5t" />
 
-  <remote  name="mtresk-gitlab"
-           fetch="https://gitlab.com/mTresk" />
+  <remote  name="syberia-bb"
+           fetch="https://bitbucket.org/syberia-project"
+           revision="refs/heads/10.0" />
+
+  <remote  name="derp-gitlab"
+           fetch="https://gitlab.com/NurKeinNeid" />
 
   <remote  name="pixel-gitlab"
            fetch="https://gitlab.com/PixelExperience" />
@@ -26,7 +30,7 @@
   <project path="art" name="android_art" remote="omnirom" revision="android-10" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-10" groups="pdk" />
 
-  <project path="build/make" name="android_build" remote="mtresk" revision="android-10" groups="pdk" >
+  <project path="build/make" name="android_build" remote="mtresk-derp" revision="android-10" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -35,12 +39,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="mtresk" revision="android-10" >
+  <project path="build/soong" name="android_build_soong" remote="mtresk-derp" revision="android-10" >
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="mtresk" revision="android-10" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="mtresk-derp" revision="android-10" />
 
   <!-- <project path="development" name="android_development" remote="omnirom" revision="android-9.0" groups="pdk-cw-fs,pdk-fs" /> -->
 
@@ -54,7 +58,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-10" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-10" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="mtresk" revision="android-10" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mtresk-derp" revision="android-10" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-10" />
   <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" remote="omnirom" revision="android-10" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-10" />
@@ -76,7 +80,7 @@
   <!--<project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-9.0" /> -->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-10" />
 
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-10" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="mtresk-derp" revision="android-10" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" revision="android-10" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="omnirom" revision="android-10" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-10" />
@@ -88,7 +92,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-10" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-10" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-10" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mtresk" revision="android-10" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mtresk-derp" revision="android-10" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="omnirom" revision="android-10" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-10" />
   <!--<project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" /> -->
@@ -102,7 +106,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-10" />
 
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-10" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mtresk" revision="android-10" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mtresk-derp" revision="android-10" />
 
   <!--<project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="omnirom" revision="android-9.0" /> -->
 
@@ -113,7 +117,7 @@
   <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-10" />
   <project path="system/media" name="android_system_media" remote="omnirom" revision="android-10" />
   <project path="system/nfc" name="android_system_nfc" remote="omnirom" revision="android-10" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="mtresk" revision="android-10" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="mtresk-derp" revision="android-10" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-10" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-10" />
   <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-10" />
